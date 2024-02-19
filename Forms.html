@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Form</h1>
+        <form method="post">
+            <p>
+                <label>User <input type="text" name="name" size="45"></label>
+                <label>Password <input type="text" name="name" size="45"></label>
+                <input type="submit" name="submit" value="OK">
+                <input type="reset" name="cancel" value="cancel">
+            </p>
+            <p><h2>Personal information</h2></p>
+            <p>
+                <label>First Name <input type="text" name="name" size="45" placeholder="put your first name"></label>
+                <label>Middle Name <input type="text" name="name" size="45" placeholder="put your middle name, if you have"></label>
+                <label>Surname <input type="text" name="name" size="45" placeholder="put your surname"></label>
+            </p>
+            <p>Gender:
+                <label><input type="radio" name="gender" value="m">Male</label>
+                <label><input type="radio" name="gender" value="f">Female</label>
+                <label><input type="radio" name="gender" value="u">Genderless</label>
+            </p>
+            <p><h3>Address</h3></p>
+            <p>
+                <label>Country<select type="text" name="country">
+                    <option value="">-- select --</option></option>
+                    <option value="Italy">Italy</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Other">Other</option>
+                </select></label>
+            <p>
+                <label>City <input type="text" name="City" size="45" placeholder="City"></label>
+            </p>
+            </p>
+            <p>
+                <label>Street <input type="text" name="street" size="45" placeholder="Street"></label>
+                <label>Number <input type="text" name="housenumber" size="45" placeholder="Number"></label>
+                <label>Complement <input type="text" name="complement" size="10" placeholder="Complement"></label>
+            </p>
+            <p><h3>Contact</h3></p>
+            <p>
+                <label>Telephone number <input type="number" name="telephone" size="20"></label>
+                <label>Email <input type="email" name="email" size="40"></label>
+            </p>
+            <p><h3>Courses of interest:</h3>
+                <label><input type="checkbox" name="likes" value="eng">Engineering</label>
+                <label><input type="checkbox" name="likes" value="his">History</label>
+                <label><input type="checkbox" name="likes" value="geo">Geography</label>
+                <label><input type="checkbox" name="likes" value="mat">Mathematics</label>
+            </p>
+            <p>
+                <label>Suggestions<textarea name="Suggestions" rows="4" cols="50" placeholder="Write any suggestion"></textarea></label>
+            </p>
+            <p><input type="submit" value="Submit"></p>
+        </form>
+    </body>
+</html>
